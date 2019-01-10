@@ -1,0 +1,77 @@
+* {
+  background-color: lightblue;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+#ulChosen {
+  display: inline-flex;
+  width: 85%;
+}
+#shrinkPic {
+  display: inline;
+}
+.logo {
+  text-align: center;
+}
+.chosen0, .chosen1, .chosen2, .chosen3 {
+  width: 100%;
+}
+button {
+  border: 1px solid black;
+  font-size: 20px;
+  display: inline-block;
+  width: auto;
+  height: 60px;
+  margin-left: 20px;
+  background-color: lightgray;
+  border-radius: 20px;
+}
+img {
+  width: 200px;
+  height: 150px;
+}
+#title {
+  font-family: fantasy;
+  background-image:url('https://png.pngtree.com/thumb_back/fh260/back_pic/00/03/15/86561d22395e9fb.jpg');
+  color: white;
+  position: relative;
+}
+/* .blurred {
+  margin-top: -100px;
+  height: 100px;
+  width: 100%;
+  background-image:url('https://png.pngtree.com/thumb_back/fh260/back_pic/00/03/15/86561d22395e9fb.jpg');
+
+} */
+.question {
+  margin: auto;
+  font-family: Helvetica;
+}
+.carousel-button {
+  align-self: center;
+  text-align: center;
+  padding: 10px;
+  background: green;
+  border-radius: 20%;
+  width: 60px;
+  height: 25px;
+}
+.previous, .next {
+  display:inline-block;
+}
+.carousel-container {
+  display: flex;
+  justify-content: space-around;
+}
+.carousel-images {
+  box-sizing: border-box;
+}
+.carousel-images img{
+  align-self: center;
+  display: none;
+  max-width: 50%;
+  max-height: 50%;
+}
+.carousel-images img:first-of-type {
+  display: block;
+}
