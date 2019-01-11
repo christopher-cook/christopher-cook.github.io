@@ -17,10 +17,9 @@ $(() => {
     const $carouselImg = $('.carousel-images').children();
     const $imageLength = $($carouselImg).length - 1;
 
-
   $.ajax(
     {
-      url: 'http://www.omdbapi.com/?apikey=718f1911&i=tt'+globalRef[rando(0, 21)],    //used a small array of actuual horro movies tto be poulled from API
+      url: 'http://www.omdbapi.com/?apikey=718f1911&i=tt'+ globalRef[rando(0, globalRef.length-1)],    //used a small array of actuual horro movies tto be poulled from API
       success: (data) => {
         globalMovies.push(data); //unable to sift the omdb and need more time to work with filtering
         let goodActor = globalMovies[0].Actors.split(',');    //splits actor into separate array to oull from
@@ -35,7 +34,6 @@ $(() => {
       }
     })
 
-
   $('.next').on('click', () => {
 
     $($carouselImg).eq(currentImg).hide();//hides currently displayed image
@@ -46,7 +44,6 @@ $(() => {
       }
     $($carouselImg).eq(currentImg).show();
   })
-
 
   $('.previous').on('click', () => {
 
@@ -65,7 +62,5 @@ $(() => {
     } else {
       alert('WRONG!');
     }
-
-})
-
+  })
 });

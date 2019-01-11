@@ -3,8 +3,15 @@
   /* border: 1px solid red; */
   text-align: center;
 }
+body {
+  display: block;
+}
+.container {
+  display: flex;
+  margin-left: 27.5%;
+}
 #ulChosen {
-  display: inline-flex;
+  display: flex;
   width: 85%;
 }
 #shrinkPic {
@@ -41,11 +48,14 @@ img {
   height: 100px;
   width: 100%;
   background-image:url('https://png.pngtree.com/thumb_back/fh260/back_pic/00/03/15/86561d22395e9fb.jpg');
-
-} */
+}*/
+.lower {
+  display: block;
+}
 .question {
   margin: auto;
   font-family: Helvetica;
+  display: block;
 }
 .carousel-button {
   align-self: center;
@@ -56,9 +66,7 @@ img {
   width: 60px;
   height: 25px;
 }
-.previous, .next {
-  display:inline-block;
-}
+
 .carousel-container {
   display: flex;
   justify-content: space-around;
