@@ -60,7 +60,7 @@ $(() => {
     if(badActor.includes(event.target.textContent)) {
       document.location.href = 'index2.html';
     } else {
-      alert('WRONG!');
+      alert('WRONG! Please Try again.');
     }
   })
 });
