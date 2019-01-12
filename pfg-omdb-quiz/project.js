@@ -56,11 +56,19 @@ $(() => {
     $($carouselImg).eq(currentImg).show();
   })
 
+    let count = 0;
+
   $('#ulChosen').on('click', (event) => {
-    if(badActor.includes(event.target.textContent)) {
+    if(badActor.includes(event.target.textContent) && count === 0) {
       document.location.href = 'index2.html';
+    } else if (badActor.includes(event.target.textContent) && count === 1) {
+      alert('You used all your guesses!');
+    } else if (count === 1){
+      alert('YOU LOSE!');
+      document.location.reload();       //quick search showed a ton of this sort of example with location.reload, w3schools
     } else {
-      alert('WRONG! Please Try again.');
+      alert('WRONG! You have one more guess!');
+      count++;
     }
   })
 });
