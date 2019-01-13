@@ -163,7 +163,6 @@ img {
 }
 .lower {
   display: block;
-  /* background-color: lightblue; */
 }
 .lower:hover {
   background-color: lightblue;
