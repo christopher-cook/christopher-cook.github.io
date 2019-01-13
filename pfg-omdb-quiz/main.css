@@ -214,7 +214,7 @@ img {
   width: 120px;
   height: 40px;
   border-radius: 150px;
-  background-color: blue;
+  background-color: rgba(72,61,139,.8);
   color: white;
   font-size: 16px;
 }
@@ -224,5 +224,13 @@ li {
 }
 #closeRules {
   text-align: center;
-  padding-top: 165px;
+  padding-top: 120px;
+}
+#contact {
+  width: 120px;
+  height:40px;
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+  font-size: 16px;
+  float: right;
 }
