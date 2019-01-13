@@ -13,6 +13,21 @@ const choose = () => {
 }
 
 $(() => {
+
+      const $openRules = $('#openRules');
+      const $modal = $('#modal');
+      const $closeRules = $('#closeRules');
+
+      const openRules = () => {
+          $modal.css('display', 'block');
+      }
+      const closeRules = () => {
+          $modal.css('display', 'none');
+      }
+      $openRules.on('click', openRules);
+      $closeRules.on('click', closeRules)
+      // setTimeout(openRules, 1500); //this actually works but after every question it reloads page and that pop-up gets annoying fopr en user
+
     let currentImg = 0;
     const $carouselImg = $('.carousel-images').children();
     const $imageLength = $($carouselImg).length - 1;
@@ -59,16 +74,14 @@ $(() => {
     let count = 0;
 
   $('#ulChosen').on('click', (event) => {
-    if(badActor.includes(event.target.textContent) && count === 0) {
+    if(badActor.includes(event.target.textContent) && count <= 1) {
       document.location.href = 'index2.html';
-    } else if (badActor.includes(event.target.textContent) && count === 1) {
-      alert('You used all your guesses!');
-    } else if (count === 1){
-      alert('YOU LOSE!');
-      document.location.reload();       //quick search showed a ton of this sort of example with location.reload, w3schools
-    } else {
+    } else if (count === 0){
       alert('WRONG! You have one more guess!');
-      count++;
+      count++;     //quick search showed a ton of this sort of example with location.``, pulled from quackit.com
+    } else {
+      alert('YOU LOSE');
+      document.location.reload();
     }
   })
 });

@@ -20,6 +20,7 @@ header::after { /* I used css-tricks.com here, great site for workarounds*/
 }
 .logo {
   text-align: center;
+  margin-left: 60px;
   padding-top: 10px;
 }
 #pups {
@@ -182,4 +183,46 @@ img {
 .chosen0, .chosen1, .chosen2, .chosen3 {
   width: 100%;
   margin: 30px;
+}
+/* ----------------------- */
+
+
+#modal {
+  display: none;
+  background-color: rgba(0,0,0,.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  overflow: auto;
+}
+#modal-box {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+    margin: 150px auto;
+}
+#rules {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+#openRules {
+  width: 120px;
+  height: 40px;
+  border-radius: 150px;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+}
+li {
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+#closeRules {
+  text-align: center;
+  padding-top: 165px;
 }
