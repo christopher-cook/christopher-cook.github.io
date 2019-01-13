@@ -26,9 +26,15 @@ header::after { /* I used css-tricks.com here, great site for workarounds*/
   border-top-left-radius: 80px;
   border-top-right-radius: 80px;
 }
+#pfg {
+  padding-left: 5px;
+  font-size: 15px;
+  color: black;
+  text-shadow: 2px 2px white;
+}
 #title {
   font-family: fantasy;
-  font-size: 60px;
+  font-size: 76px;
   text-align: center;
   margin: auto;
   padding-top: 25px;
