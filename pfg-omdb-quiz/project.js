@@ -34,7 +34,7 @@ $(() => {
 
   $.ajax(
     {
-      url: 'http://www.omdbapi.com/?apikey=718f1911&i=tt'+ globalRef[rando(0, globalRef.length-1)],    //used a small array of actuual horro movies tto be poulled from API
+      url: 'https://www.omdbapi.com/?apikey=718f1911&i=tt'+globalRef[rando(0, globalRef.length-1)],    //used a small array of actuual horro movies tto be poulled from API
       success: (data) => {
         globalMovies.push(data); //unable to sift the omdb and need more time to work with filtering
         let goodActor = globalMovies[0].Actors.split(',');    //splits actor into separate array to oull from
