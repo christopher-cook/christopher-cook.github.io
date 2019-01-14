@@ -33,7 +33,10 @@ Live game site hosted at [www.pepperfredginger.com](https://www.pepperfredginger
 
 ## Problems to be addressed
 ------
-Issues to be addressed include adding to the *dummy* pool of 'wrong' actors
+- Adding to the *dummy* pool of 'wrong' actors
+- Populating alternate movie categories
+- Randomizing button choice order
+- Adding additional redirect pages vs simple alerts
 
 
 
