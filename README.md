@@ -25,7 +25,7 @@ I wanted to frame a game that could reference any category of the JSON data retu
   - clone via **SSH**
     -- in terminal, '*git remote set-url <remote name> <ssh url>*' ... remote name is typically origin
   - clone via **HTTPS**
-    -- in terminal, '*git clone <https url>*'
+    -- in terminal, *'git clone <https url>'*
   
 ### Link to Site
 -----
