@@ -161,9 +161,10 @@ button {
   width: auto;
   height: 60px;
   margin-left: 20px;
-  background-color: lightgray;
+  background-color: rgb(175,255,247);
   border-radius: 20px;
   cursor: pointer;
+  color: rgb(6,5,64);
 }
 img {
   width: 200px;
@@ -173,7 +174,8 @@ img {
   display: block;
 }
 .lower:hover {
-  background-color: lightblue;
+  transition: 2s;
+  background-color: rgba(255,81,0,.5);
 }
 .question {
   text-align: center;
@@ -254,4 +256,9 @@ li {
   margin: 12% 20%;
   border-radius: 20px;
   box-shadow: 5px 5px green;
+}
+#gratz {
+  padding-top: 40px;
+  font-size: 60px;
+  text-align: center;
 }
