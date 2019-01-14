@@ -1,3 +1,6 @@
+html {
+background-color: rgba(0,10,50,.4);
+}
 
 body {
   display: block;
@@ -241,4 +244,14 @@ li {
 #contactLink {
   color: orange;
   text-decoration: none;
+}
+
+/* --------------------- */
+
+#turtleWins {
+  width: 640px;
+  height: 480px;
+  margin: 12% 20%;
+  border-radius: 20px;
+  box-shadow: 5px 5px green;
 }
