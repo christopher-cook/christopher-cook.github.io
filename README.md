@@ -3,7 +3,7 @@
 ------
 Movie Q's has access to a database of nearly 500k+ movie titles all sourced from [OMDB](http://omdbapi.com/). The purpose of this game is purely recreational and should be treated as such. Movie API requests are currently limited to 1000 queries per day which is more than adequate for beta purposes. 
   
-## Technologies Implemented / Sources 
+## Technologies / Sources 
 ------
   * jQuery utilized to access API and handle event listeners
   *  HTML/CSS to frame backbone of the site
@@ -13,8 +13,15 @@ Movie Q's has access to a database of nearly 500k+ movie titles all sourced from
   * Site hosted via Github but redirects to Google Domain, www.pepperfredginger.com
   
 ## Approach
+------
+Having always been a fan of hours long sessions of "What movies has _____ been in?", I decided to stick with OMDB's API. 
+I wanted to frame a game that could reference any category of the JSON data returned without the need for recoding, keeping it DRY. My main concern was keeping each aspect of the game simple enough to maintain a limited amount of bugs/errors.
 
 ## Installation Instructions
+------
+1. Open terminal and *cd* into the *directory* of your choice
+2. Go to my [GitHub](https://github.com/christopher-cook/pfg-omdb) repository
+3. In the top-right corner choose **Clone or Download**
 
 ### Link to Site
 -----
