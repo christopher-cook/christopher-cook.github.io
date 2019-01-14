@@ -19,9 +19,9 @@ I wanted to frame a game that could reference any category of the JSON data retu
 
 ## Installation Instructions
 ------
-1. Open your terminal and `*cd*` into the `*directory*` of your choice (Note: do not clone a repo inside another)
+1. Open your terminal and *`cd`* into the *`directory`* of your choice (Note: do not clone a repo inside another)
 2. Go to my [GitHub](https://github.com/christopher-cook/pfg-omdb) repository
-3. In the top-right corner choose `**Clone or Download**`
+3. In the top-right corner choose **`Clone or Download`**
   - clone via **SSH**
     -- in terminal, type `git remote set-url <remote name> <ssh url>` ... remote name is typically origin
   - clone via **HTTPS**
