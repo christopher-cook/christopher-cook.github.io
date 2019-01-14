@@ -23,9 +23,9 @@ I wanted to frame a game that could reference any category of the JSON data retu
 2. Go to my [GitHub](https://github.com/christopher-cook/pfg-omdb) repository
 3. In the top-right corner choose **Clone or Download**
   - clone via **SSH**
-    -- in terminal, >*git remote set-url <remote name> <ssh url>*> ... remote name is typically origin
+    -- in terminal, '*git remote set-url <remote name> <ssh url>*' ... remote name is typically origin
   - clone via **HTTPS**
-    -- in terminal, >*git clone <https url>*>
+    -- in terminal, '*git clone <https url>*'
   
 ### Link to Site
 -----
