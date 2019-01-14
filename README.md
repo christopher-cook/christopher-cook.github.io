@@ -19,9 +19,10 @@ I wanted to frame a game that could reference any category of the JSON data retu
 
 ## Installation Instructions
 ------
-1. Open terminal and *cd* into the *directory* of your choice
+1. Open your terminal and *cd* into the *directory* of your choice
 2. Go to my [GitHub](https://github.com/christopher-cook/pfg-omdb) repository
 3. In the top-right corner choose **Clone or Download**
+  - Test tab
 
 ### Link to Site
 -----
