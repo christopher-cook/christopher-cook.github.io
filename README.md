@@ -8,7 +8,7 @@ Movie Q's has access to a database of nearly 500k+ movie titles all sourced from
   * jQuery utilized to access API and handle event listeners
   *  HTML/CSS to frame backbone of the site
     - [CSS-tricks](https://css-tricks.com/) was referenced
-    - [MDN](https://developer.mozilla.org/en-US/) also referenced
+    -- [MDN](https://developer.mozilla.org/en-US/) also referenced
   * Incorporated modal into index.html for visual overlay of rules
   * index2.html redirect page incorporates live webcam via raspberryPi
   * Site hosted via Github but redirects to Google Domain, www.pepperfredginger.com
