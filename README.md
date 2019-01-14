@@ -7,7 +7,7 @@ Movie Q's has access to a database of nearly 500k+ movie titles all sourced from
 ------
   * jQuery utilized to access API and handle event listeners
   *  HTML/CSS to frame backbone of the site
-  ** [CSS-tricks](https://css-tricks.com/)
+  - [CSS-tricks](https://css-tricks.com/)
 ## Approach
 
 ## Installation Instructions
